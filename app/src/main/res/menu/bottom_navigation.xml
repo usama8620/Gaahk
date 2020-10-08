@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/gaahk_1"
+        android:title=""/>
+
+    <item
+        android:id="@+id/navigation_negotiation"
+        android:icon="@mipmap/negotiation"
+        android:title=""/>
+
+    <item
+        android:id="@+id/navigation_cam"
+        android:icon="@mipmap/cam"
+        android:title=""
+        />
+
+
+    <item
+        android:id="@+id/navigation_bell"
+        android:icon="@mipmap/bell"
+        android:title=""/>
+
+    <item
+        android:id="@+id/navigation_store"
+        android:icon="@mipmap/store"
+        android:title=""/>
+
+</menu>

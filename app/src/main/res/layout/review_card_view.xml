@@ -1,0 +1,99 @@
+<RelativeLayout android:layout_toRightOf="@+id/profile_image_top"
+    android:layout_width="match_parent"
+android:id="@+id/review_cardview"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image_top"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:src="@mipmap/display" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_14sdp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/profile_image_top"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <TextView
+
+        android:id="@+id/profile_text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="officialusama"
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/black"
+
+
+        />
+
+        <ImageView
+            android:id="@+id/review_product_image"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:background="@mipmap/people"
+            android:layout_marginLeft="@dimen/_190sdp"
+
+            android:layout_marginTop="@dimen/_5sdp"
+            />
+
+    <TextView
+
+        android:id="@+id/profile_text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_text_view1"
+
+        android:text="Lahore, Pakistan"
+
+        android:textSize="@dimen/_8sdp"
+        />
+
+
+    <RatingBar
+        android:id="@+id/MyRating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_text_view2"
+
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.1" />
+
+    <TextView
+
+        android:id="@+id/profile_text_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="start"
+        android:layout_below="@id/MyRating"
+
+        android:text="It was delivered on time and the product was well crafted just as shown in the pictures"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"
+        />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

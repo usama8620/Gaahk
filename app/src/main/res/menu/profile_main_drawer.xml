@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_divider1"
+        >
+        <item
+            android:id="@+id/nav_e_wallet"
+
+            android:title="E-Wallet" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_divider2"
+        >
+        <item
+            android:id="@+id/nav_wishlist"
+
+            android:title="Wishlist" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_divider3"
+        >
+        <item
+            android:id="@+id/nav_feature"
+
+            android:title="Feature Products" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_divider4"
+        >
+        <item
+            android:id="@+id/nav_settings"
+
+            android:title="Settings" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_divider5"
+        >
+
+        <item
+            android:id="@+id/nav_reciept"
+            android:title="Reciept"
+            />
+
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_divider6"
+        >
+        <item
+            android:id="@+id/nav_aboutapp"
+
+            android:title="About App" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_divider7"
+        >
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_divider5"
+        >
+
+    </group>
+
+
+</menu>

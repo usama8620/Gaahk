@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/home_cardview2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8.0dp"
+    android:layout_marginTop="4.0dp"
+    android:layout_marginRight="8.0dp"
+    android:layout_marginBottom="4.0dp"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="@dimen/_5sdp"
+    card_view:cardElevation="@dimen/_5sdp"
+    app:ignore="NamespaceTypo">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">  <LinearLayout
+        android:id="@+id/linearlayoutcardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/_4sdp"
+            android:src="@mipmap/display" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:id="@+id/card_text_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="officialusama"
+                android:textColor="@color/black"
+
+
+                />
+
+            <TextView
+
+                android:id="@+id/card_text_view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_text_view1"
+
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:text="Lahore, Pakistan | Featured"
+
+                android:textSize="@dimen/_9sdp"
+
+
+                />
+
+            <ImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:background="@mipmap/menu"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_210sdp"
+                />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_240sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            >
+            <ImageView
+                android:id="@+id/imgcardview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_190sdp"
+                android:scaleX="1.5"
+                android:scaleY="1"
+                android:padding="@dimen/_1sdp"
+                android:src="@mipmap/people"
+
+                />
+
+            <LinearLayout
+                android:layout_below="@id/imgcardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                >
+
+                <ImageView
+                    android:id="@+id/like_image"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:background="@mipmap/like_icon"
+                    />
+
+                <ImageView
+                    android:id="@+id/comment_image"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:background="@mipmap/comment"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    />
+
+                <ImageView
+                    android:id="@+id/forward_image"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:background="@mipmap/forward"
+                    android:layout_marginLeft="@dimen/_10sdp"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/message_image"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:background="@mipmap/message"
+                    android:layout_marginLeft="@dimen/_125sdp"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/saved_image"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:background="@mipmap/save"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

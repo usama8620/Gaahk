@@ -1,0 +1,21 @@
+<RelativeLayout android:layout_toRightOf="@+id/profile_image_top"
+    android:layout_width="wrap_content"
+    android:id="@+id/cover_cardview"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/review_product_image"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@mipmap/people"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+
+        android:layout_marginTop="@dimen/_5sdp"
+        />
+
+</RelativeLayout>
+

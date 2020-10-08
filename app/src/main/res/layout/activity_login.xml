@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:padding="50dp">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/gahak_logo" />
+
+
+            <EditText
+                android:id="@+id/login_fragment_email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/logo"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/et_style"
+                android:hint="Username or Email"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_2sdp"
+                android:inputType="textEmailAddress"
+
+                android:textSize="@dimen/_8sdp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/login_fragment_password"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/login_fragment_email"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:background="@drawable/et_style"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_2sdp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_8sdp"
+                android:textColorHint="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tv_forget_pass"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_fragment_password"
+
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Forgot Password?"
+                android:textSize="@dimen/_8sdp"
+                android:textColor="@color/red_500" />
+
+
+            <Button
+                android:id="@+id/login_fragment_login_button"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_below="@+id/tv_forget_pass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/round_button"
+                android:scaleType="fitCenter"
+                android:text="LogIn"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/signup_textview"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_fragment_login_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:text="Join Today"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

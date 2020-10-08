@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        >
+
+
+        <ImageButton
+            android:id="@+id/confirm_back_button"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginLeft="@dimen/_18sdp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/back"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Email"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_14sdp"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginVertical="@dimen/_7sdp"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayout1"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_margin="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/_6sdp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENTER 4-DIGIT CODE"
+                android:textStyle="bold"
+                android:textSize="@dimen/_10sdp"
+                android:textColor="@color/colorPrimary"
+                android:paddingLeft="@dimen/_5sdp"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+
+                >
+
+                <EditText
+                    android:id="@+id/et1"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:inputType="phone"
+                    android:background="@drawable/et_style"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp" />
+
+                <android.widget.Space
+                    android:layout_width="8dp"
+                    android:layout_height="0dp" />
+
+                <EditText
+                    android:id="@+id/et2"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:inputType="phone"
+                    android:background="@drawable/et_style"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp" />
+
+                <android.widget.Space
+                    android:layout_width="8dp"
+                    android:layout_height="0dp" />
+
+                <EditText
+                    android:id="@+id/et3"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:inputType="phone"
+                    android:background="@drawable/et_style"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp" />
+
+                <android.widget.Space
+                    android:layout_width="8dp"
+                    android:layout_height="0dp" />
+
+                <EditText
+                    android:id="@+id/et4"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:inputType="phone"
+                    android:background="@drawable/et_style"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp" />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                >
+
+
+
+            <TextView
+                android:id="@+id/confirm_email_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If you didn't recieve code"
+                android:textColor="@color/black"
+                android:gravity="center"
+
+                android:textSize="@dimen/_10sdp"
+
+
+
+                />
+            <TextView
+                android:id="@+id/click_here_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click Here"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textColor="#ff5757"
+                android:gravity="center"
+                android:paddingTop="@dimen/_5sdp"
+                android:textSize="@dimen/_8sdp"
+
+
+
+
+
+                />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/confirm_email_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reg_textview"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/round_button"
+                android:scaleType="fitCenter"
+                android:text="Confirm"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_12sdp" />
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
+
